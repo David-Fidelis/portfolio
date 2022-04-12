@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+}
+
+.hero_section {
+  display: flex;
+}
+.hero_box {
+  width: 50%;
+}
+.hero_box_first_half {
+  margin-left: 7%;
+  margin-top: 10%;
+}
+.time {
+  text-decoration-color: lightseagreen;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+}
+.tired {
+  width: 80%;
+  font-size: 5.5rem;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+.close {
+  width: 80%;
+  color: blue;
+}
+
+.skill_section {
+  padding: 5%;
+  background-color: black;
+}
+.skill_name {
+  color: gray;
+  text-transform: uppercase;
+}
+.skill_wrapper {
+  color: white;
+  list-style: none;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  display: flex;
+}
+.skill_wrapper_list {
+  margin-right: 2%;
+  margin-top: 3%;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.contact_section {
+  background-color: lightcoral;
+  padding: 5%;
+}
+.chop {
+  color: white;
+  margin-bottom: 1%;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.contact_header_info {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_header_greeting {
+  color: white;
+  font-size: 1.5rem;
+  max-width: 40%;
+  font-weight: 700;
+}
+.social_icons_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social_icon_item {
+  margin-right: 10%;
+}
+.contact_form_wrapper {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+}
+.contact_form_input {
+  padding: 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: lightblue;
+  margin-bottom: 1.5%;
+  border-radius: 0.5rem;
+}
+.contact_form_textarea {
+  padding: 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: lightblue;
+  margin-bottom: 1.5%;
+  border-radius: 0.5rem;
+}
+.contact_form_button {
+  padding: 1%;
+  background-color: black;
+  color: white;
+  width: max-content;
+  border-radius: 0.5rem;
+}
+.footer_section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: lightgray;
+  align-items: center;
+}
+.footer_text {
+  padding-left: 1rem;
+  border-left: 3px solid black;
+}
